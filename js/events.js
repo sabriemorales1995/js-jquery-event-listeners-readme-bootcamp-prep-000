@@ -17,10 +17,10 @@ function pressIt(){
     if(key.which===71||key.which===103)  {
       alert('Youg pressed the letter G');
       //return;
-    }else{
-      alert("You didn't use the letter G");
+    }//else{
+      //alert("You didn't use the letter G");
       //return;
-    }
+    //}
   });
 }
 
