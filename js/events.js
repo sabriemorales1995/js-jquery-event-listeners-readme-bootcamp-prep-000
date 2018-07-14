@@ -6,7 +6,7 @@ function getIt(){
 }
 
 function frameIt(){
-  $().on("load",function(){
+  $(document).on("load",function(){
     //adds the class "tasty" to the image to add a red frame to the image -- .addClass()
     $('img').addClass('tasty');
   });
