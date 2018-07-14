@@ -25,8 +25,8 @@ function pressIt(){
 }
 
 function submitIt(){
-  $().on("submit", function(){
-    
+  $('form').on("submit", function(){
+    alert('')
   });
 }
 
