@@ -16,11 +16,17 @@ function pressIt(){
   $('form input').on("keydown", function(key){
     if(key.which===71||key.which===103)  {
       alert('Youg pressed the letter G');
-      return;
+      //return;
     }else{
       alert("You didn't use the letter G");
-      return;
+      //return;
     }
+  });
+}
+
+function submitIt(){
+  $().on("submit", function(){
+    
   });
 }
 
