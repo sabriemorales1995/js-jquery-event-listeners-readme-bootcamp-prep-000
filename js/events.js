@@ -14,7 +14,9 @@ function frameIt(){
 
 function pressIt(){
   $('form input').on("keydown", function(key){
-    if(key.which===)    
+    if(key.which===71||key.which===103)  {
+      alert('')
+    }  
   });
 }
 
