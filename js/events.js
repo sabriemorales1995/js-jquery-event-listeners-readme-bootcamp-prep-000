@@ -5,6 +5,13 @@ function getIt(){
   });
 }
 
+function frameIt(){
+  $().on("load",function(){
+    //adds the class "tasty" to the image to add a red frame to the image
+    
+  });
+}
+
 
 $(document).ready(function(){
 
