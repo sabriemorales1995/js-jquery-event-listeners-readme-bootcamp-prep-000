@@ -15,8 +15,12 @@ function frameIt(){
 function pressIt(){
   $('form input').on("keydown", function(key){
     if(key.which===71||key.which===103)  {
-      alert('')
-    }  
+      alert('Youg pressed the letter G');
+      return;
+    }else{
+      alert("You didn't use the letter G");
+      return;
+    }
   });
 }
 
